@@ -24,6 +24,6 @@ class ProductController extends Controller
 
     public function show($id)
     {
-        return view();
+        return view('admin.product.product');
     }
 }

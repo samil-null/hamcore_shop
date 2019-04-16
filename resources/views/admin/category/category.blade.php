@@ -32,12 +32,12 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label class="form-control-label" for="input-username">Название</label>
-                    <input type="text" name="name" class="form-control form-control-alternative" placeholder="" value="{{$category->name??''}}">
+                    <label class="form-control-label" for="input-prod-name">Название</label>
+                    <input type="text" name="name" id="input-prod-name" class="form-control form-control-alternative"  placeholder="" value="{{$category->name??''}}">
                 </div>
                 <div class="form-group">
-                    <label class="form-control-label" for="input-username">Url</label>
-                    <input type="email" name="slug" class="form-control form-control-alternative" placeholder="" value="{{$category->slug??''}}">
+                    <label class="form-control-label" for="input-prod-url">Url</label>
+                    <input type="email" name="slug" id="input-prod-url" class="form-control form-control-alternative" placeholder="" value="{{$category->slug??''}}">
                 </div>
             </form>
         </div>

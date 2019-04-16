@@ -11,3 +11,9 @@ $('#final-step-destroy-user').click(function() {
         document.location.reload(true);
     }
 });
+
+$('.file-loader-btn').click(function() {
+    var fileInput = $(this).parent().find('.file-input');
+    fileInput.trigger('click');
+    console.log(fileInput.val());
+});

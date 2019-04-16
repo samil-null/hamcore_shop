@@ -21,9 +21,9 @@
                       </div>
 		            </a>
 		            <div class="media-body">
-		            	<a href="#">
-		              		<span class="mb-0 text-sm">{{$product->name}}</span>
-		              	</a>
+									<a href="{{route('admin.products.show',['id' => $product->id])}}">
+		              	<span class="mb-0 text-sm">{{$product->name}}</span>
+		              </a>
 		            </div>
 		          </div>
 		        </th>

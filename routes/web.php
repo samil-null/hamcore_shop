@@ -50,7 +50,7 @@ Route::group(['prefix'=>'_admin','middleware' => ['auth'],'namespace' => 'Admin'
 
     //Товары
     Route::get('/products','ProductController@index')->name('admin.products.index');
-    Route::get('/products/{id}','ProductController@show')->name('admin.product.show');
+    Route::get('/products/{id}','ProductController@show')->name('admin.products.show');
    
 });
 

@@ -123,7 +123,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/admin/examples/maps.html">
+            <a class="nav-link" href="{{route('admin.products.index')}}">
               <i class="ni ni-pin-3 text-orange"></i> Товары
             </a>
           </li>
